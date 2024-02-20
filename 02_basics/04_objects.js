@@ -3,7 +3,8 @@ const newObject={}
 newObject.id="abc123"
 newObject.name="Yash"
 newObject.isLoggedIn = false
-// console.log(newObject);
+// console.log(newObject); 
+
 
 const regularUser={
     email:"abc@gov.in",
@@ -43,13 +44,13 @@ const users = [
 ]
 
 users[1].email
-// console.log(tinderUser);
+// console.log(newObject);
 
-// console.log(Object.keys(tinderUser));
-// console.log(Object.values(tinderUser));
-// console.log(Object.entries(tinderUser));
+console.log(Object.keys(newObject)); //Outputs in form of arrays
+console.log(Object.values(newObject)); //Outputs in form of arrays
+console.log(Object.entries(newObject)); //Outputs in form of keys and values pair - [ [ 'id', 'abc123' ], [ 'name', 'Yash' ], [ 'isLoggedIn', false ] ]
 
-// console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+// console.log(newObject.hasOwnProperty('isLoggedIn'));
 
 
 const course = {
@@ -60,7 +61,7 @@ const course = {
 
 // course.courseInstructor
 
-const {courseInstructor: instructor} = course
+// const {courseInstructor: instructor} = course
 
 // console.log(courseInstructor);
 // console.log(instructor);
@@ -71,8 +72,8 @@ const {courseInstructor: instructor} = course
 //     "price": "free"
 // }
 
-[
-    {},
-    {},
-    {}
-]
+// [
+//     {},
+//     {},
+//     {}
+// ]
