@@ -46,9 +46,9 @@ const users = [
 users[1].email
 // console.log(newObject);
 
-console.log(Object.keys(newObject)); //Outputs in form of arrays
-console.log(Object.values(newObject)); //Outputs in form of arrays
-console.log(Object.entries(newObject)); //Outputs in form of keys and values pair - [ [ 'id', 'abc123' ], [ 'name', 'Yash' ], [ 'isLoggedIn', false ] ]
+// console.log(Object.keys(newObject)); //Outputs in form of arrays
+// console.log(Object.values(newObject)); //Outputs in form of arrays
+// console.log(Object.entries(newObject)); //Outputs in form of keys and values pair - [ [ 'id', 'abc123' ], [ 'name', 'Yash' ], [ 'isLoggedIn', false ] ]
 
 // console.log(newObject.hasOwnProperty('isLoggedIn'));
 
@@ -61,10 +61,12 @@ const course = {
 
 // course.courseInstructor
 
-// const {courseInstructor: instructor} = course
-
-// console.log(courseInstructor);
+const {price}=course
+// console.log(price);
+//////////////////////////////////////////////////////
+const {courseInstructor: instructor} = course  //you can remane the fields name for usability
 // console.log(instructor);
+//////////////////////////////////////////////////////
 
 // {
 //     "name": "hitesh",
